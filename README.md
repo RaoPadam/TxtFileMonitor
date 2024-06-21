@@ -1,5 +1,7 @@
 TxtFileMonitor
 
+Requires : .NET Framework version 4.8
+
 Overview
 The TxtFileMonitor is a console application developed in C#. This program is designed to monitor changes in a specified .txt file and log these changes into a separate log file. 
 By leveraging the FileSystemWatcher class, it keeps an eye on the target file and the DiffPlex library is used to calculate and display the differences between the old and new content. 
